@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include "amgraph.h"
 
-int main(int argc, const char argv[]) {
+/**
+ * 图的邻接矩阵存储表示测试案例：
+ * 
+ * 利用邻接矩阵表示法创建一个有向网
+ */
+int main(int argc, const char *argv[]) {
     AMGraph g;
     printf("创建一个网g:\n");
     createGraph(&g);
