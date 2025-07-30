@@ -3,7 +3,7 @@
 #include <string.h>
 #include "algraph.h"
 
-// = = = = = 基本操作的函数描述 = = = = = 
+// = = = = = 基本操作的算法描述 = = = = = 
 // 创建图，采用邻接表存储结构
 Status createGraph(ALGraph *g) {
     printf("请输入图的种类标识（0表示有向图，1表示有向网，2表示无向图，3表示无向网）：\n");
